@@ -3,11 +3,15 @@ import './App.css';
 
 import {Button} from "react-bootstrap";
 import Login from "./pages/Entry";
+import { Defaultlayout } from './layout/Defaultlayout';
 
 function App() {
   return (
     <div className="App">
- <Login/>
+ {/* <Login/> */}
+ <Defaultlayout>
+//dashboard
+   </Defaultlayout>
     </div>
   );
 }
